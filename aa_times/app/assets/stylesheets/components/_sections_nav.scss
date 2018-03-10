@@ -1,0 +1,21 @@
+.aa-sections {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  li {
+    font-family: $sans-serif;
+    font-size: 12px;
+    // margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 8px;
+  }
+
+  a:hover {
+    background-color: $lightest-gray;
+    text-decoration: underline;
+  }
+
+}
